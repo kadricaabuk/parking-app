@@ -1,0 +1,71 @@
+
+
+ /********** Range Input Styles **********/
+/*Range Reset*/
+.car-range {
+    -webkit-appearance: none;
+     appearance: none;
+     background: transparent;
+     width: 300px;
+
+ }
+ 
+ /* Removes default focus */
+ .car-range:focus {
+   outline: none;
+ }
+ 
+ /***** Chrome, Safari, Opera and Edge Chromium styles *****/
+ /* slider track */
+ .car-range::-webkit-slider-runnable-track {
+    background: rgba(177, 29, 148, 1);
+    height: 55px;
+    border-radius: 55px;
+ }
+ 
+ /* slider thumb */
+ .car-range::-webkit-slider-thumb {
+   -webkit-appearance: none;
+    appearance: none;
+    background: url('../../assets/icons/range-pin.svg') 50% 50% fixed no-repeat ;
+    height: 55px;
+    width: 72px;
+ }
+ 
+ /******** Firefox styles ********/
+ /* slider track */
+ .car-range::-moz-range-track {
+    background: rgba(177, 29, 148, 1);
+    height: 55px;
+ }
+ 
+ /* slider thumb */
+ .car-range::-moz-range-thumb {
+    background: url('../../assets/icons/range-pin.svg') no-repeat;
+    height: 55px;
+ }
+/*  
+ @keyframes ease-in {
+   from {left: -100px}
+   to {left: 0;}
+ }
+
+ .ease-in {
+   position: relative;
+   animation-name: ease-in;
+   animation-duration: 1s;
+ } */
+
+ .car {
+   position: relative;
+ }
+
+ .animate__animated.animate__fadeIn.firstIn {
+  --animate-duration: 800ms;
+  --animate-delay: 0.9s;
+ }
+
+ .animate__animated.animate__fadeIn.secondIn {
+  --animate-duration: 2000ms;
+  --animate-delay: 3s;
+ }
