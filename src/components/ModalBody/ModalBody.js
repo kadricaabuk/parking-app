@@ -1,16 +1,8 @@
 import React from 'react'
 import {
-    IonButton,
-    IonPage,
-    IonHeader,
-    IonTitle,
     IonContent,
-    IonToolbar,
-    IonButtons,
-    IonItem,
-    IonRange
   } from "@ionic/react";
-import { useEffect, useState, useRef } from 'react'
+import { useEffect, useState } from 'react'
 
 import './ModalBody.css'
 
@@ -20,9 +12,6 @@ import PhotoIcon from "../../assets/icons/photo-icon.svg"
 import BlueParkIcon from "../../assets/icons/blue-park-icon.svg"
 import ClockIcon from "../../assets/icons/clock-icon.svg"
 import Car from "../../assets/img/car.png"
-
-
-import { CreateAnimation, Animation } from '@ionic/react';
 
 const ModalBody = ({ dismiss, type }) => {
 

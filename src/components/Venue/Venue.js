@@ -1,12 +1,10 @@
 import React from 'react'
 import {
-    IonPage,
     IonContent,
     IonModal,
     useIonModal,
     IonAvatar,
-    IonButtons,
-    IonButton
+
   } from "@ionic/react";
   import { useState } from "react";
   import ModalBody from '../ModalBody/ModalBody';
